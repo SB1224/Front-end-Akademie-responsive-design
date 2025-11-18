@@ -1,0 +1,398 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+p {
+  font-size: 16px;
+}
+
+/* NAVIGATION */
+nav {
+  background-color: #33292a;
+  color: #fff;
+  height: 5vh;
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  display: none;
+}
+
+nav img {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+  margin-left: 10px;
+  position: absolute;
+  right: 20px;
+  display: block;
+}
+/* HERO */
+.hero {
+  background-image: url(Images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-wrapper {
+  height: 95vh;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+.hero-text {
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 2rem;
+  color: #fff;
+}
+/* about us*/
+.about-us-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-us-text h2 {
+  font-size: 34px;
+  margin-top: 3rem;
+}
+.about-us-text {
+  margin-bottom: 20px;
+  flex: 1;
+}
+.about-us-image {
+  flex: 1;
+  margin-top: 20px;
+  margin-bottom: 5rem;
+  min-height: 300px;
+}
+.about-us-image img {
+  max-width: 100%;
+  height: auto;
+}
+/*What we do*/
+.what-we-do {
+  background-color: #33292a;
+  display: flex;
+}
+.what-we-do-wrapper {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.what-we-do h2 {
+  font-size: 34px;
+  margin-top: 4.5rem;
+}
+.what-we-do-text {
+  color: #fff;
+  text-align: center;
+}
+.what-we-do-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.what-we-do-icon img {
+  width: 5rem;
+  height: auto;
+  margin-top: 2.5rem;
+}
+
+.what-we-do h3 {
+  text-align: center;
+}
+
+/* Our tips */
+.our-tips-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.our-tips-content {
+  margin: 4rem 0;
+}
+.our-tips-content img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+}
+.our-tips-content p {
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+  background: #f2f2f2;
+  line-height: 5rem;
+  margin: 0;
+  border-radius: 3%;
+}
+/* Where to go */
+.where-to-go {
+  background: #644b4f;
+
+  display: flex;
+  align-items: center;
+}
+.where-to-go-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.where-to-go-wrapper h1 {
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+.where-to-go-wrapper p {
+  margin-bottom: 5px;
+}
+.btn {
+  margin: 3.5rem 0;
+  width: 40%;
+  height: 2.5rem;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+/* Reviews */
+.reviews-wrrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.reviews-wrrapper p {
+  text-align: center;
+}
+.reviews-wrrapper h1 {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 10px;
+}
+.reviews-wrrapper h3 {
+  text-align: center;
+}
+.review1,
+.review2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+.review2 {
+  margin-bottom: 3rem;
+}
+
+.review1 img,
+.review2 img {
+  border-radius: 100%;
+  height: 8rem;
+  width: 8rem;
+  align-self: center;
+  object-fit: cover;
+  padding: 1.5rem;
+}
+/* Galery */
+.galery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.galery img {
+  width: 100%;
+  height: auto;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #333333;
+  color: #fff;
+}
+footer a {
+  color: #efa69d;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 2rem;
+  font-weight: bolder;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #e9877b;
+}
+footer h6 {
+  margin-top: 0.5rem;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-text {
+    font-size: 3.5rem;
+  }
+  .about-us-wrapper {
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .about-us-text h2 {
+    margin-top: 30px;
+    font-size: 4rem;
+    margin-bottom: 15px;
+  }
+  .about-us-text {
+    flex: 1;
+    max-width: auto;
+    height: 100%;
+    margin-bottom: 5rem;
+  }
+  .about-us-image {
+    max-width: auto;
+    height: 40vh;
+    margin-bottom: 3rem;
+  }
+  .about-us-image img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    display: block;
+  }
+  .what-we-do-icon {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .our-tips-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .our-tips-content p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    flex-wrap: wrap;
+    padding: 48px;
+  }
+  .our-tips-content img {
+    object-fit: fill;
+    height: 100%;
+  }
+  .where-to-go-wrapper {
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+  .where-to-go-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem 0;
+  }
+  .where-to-go-wrapper h1 {
+    flex: 0 0 30%;
+    margin: 0;
+    font-size: 3.5rem;
+    line-height: 1.1;
+  }
+  .reviews-wrrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .review {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .review1 {
+    flex: 0 0 45%;
+    margin: 0;
+    padding: 0 10px;
+  }
+  .review2 {
+    flex: 0 0 45%;
+    margin: 0;
+    padding: 0 10px;
+  }
+  .galery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .galery img {
+    flex: 1 1 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  nav img {
+    display: none;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+  }
+  nav li {
+    flex-grow: 1;
+    text-align: center;
+  }
+  .nav-wrapper {
+    width: 80%;
+  }
+
+  .hero-wrapper,
+  .about-us-wrapper,
+  .what-we-do-wrapper,
+  .our-tips-wrapper,
+  .where-to-go-wrapper,
+  .reviews-wrrapper {
+    width: 70%;
+  }
+}
