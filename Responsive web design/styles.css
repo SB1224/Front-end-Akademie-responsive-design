@@ -352,6 +352,7 @@ footer h6 {
   }
   .galery img {
     flex: 1 1 50%;
+    width:50%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -396,3 +397,4 @@ footer h6 {
     width: 70%;
   }
 }
+
